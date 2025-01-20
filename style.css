@@ -228,9 +228,9 @@ footer  a{color: white;}
     main{  
         display: flex;
         flex-direction: column-reverse;
-        padding-left: 100px;
         width: 100%;
         border-top: 1px solid rgb(240, 170, 0) ;
+        padding: 0px 0rem;
         
     }
     main img{
@@ -244,6 +244,10 @@ footer  a{color: white;}
         padding: 9px 20px;
         border-radius: 12px;
         border: 1px solid rgba(14, 14, 14, 0.15);
+    }
+    .main-1{
+        text-align: center;
+        justify-content: center;
     }
     section{
     .main-1{text-align: center;
@@ -297,7 +301,7 @@ footer  a{color: white;}
         "s2 s3"
         "s4 s5"
         ;
-        padding-left: 175px;
+        padding: 0 11rem;
         align-items: center;
     }
     .s02 .button{
