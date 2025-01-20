@@ -223,7 +223,7 @@ footer  a{color: white;}
         display: flex;
         flex-direction: column;
         gap:10px;
-        padding-left: 5.2rem;
+        
     }
     main{  
         display: flex;
@@ -277,8 +277,7 @@ footer  a{color: white;}
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: center;
-        padding-left: 4.2rem; 
+        align-items: center; 
         gap: 20px;
         
     }
@@ -301,7 +300,6 @@ footer  a{color: white;}
         "s2 s3"
         "s4 s5"
         ;
-        padding: 0 11rem;
         align-items: center;
     }
     .s02 .button{
