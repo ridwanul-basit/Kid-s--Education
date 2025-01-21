@@ -297,7 +297,7 @@ footer  a{color: white;}
     .s1{visibility:hidden;}
     .c2{
         display: grid;
-        gap: 20px;
+        gap: 5px;
         grid-template-areas: 
         "s2 s3"
         "s4 s5"
