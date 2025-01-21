@@ -262,7 +262,7 @@ footer  a{color: #A3E1FF;}
     padding: 8.5px 0px;
 }
 
-@media screen and (max-width:620px) { 
+@media screen and (max-width:570px) { 
     footer{
         display: flex;
         flex-direction: column;
@@ -298,11 +298,12 @@ footer  a{color: #A3E1FF;}
         border: 1px solid rgba(14, 14, 14, 0.15);
         margin-top: 30px;
     }
-    .main-1{
+    .main-1 h1{
         text-align: center;
         justify-content: center;
     }
     .main-1{
+        width: 100%;
         text-align: center;
         justify-content: center;
     }
