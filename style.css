@@ -223,6 +223,7 @@ footer  a{color: white;}
         display: flex;
         flex-direction: column;
         gap:10px;
+        padding: 80px 15px;
         
     }
     main{  
@@ -297,12 +298,12 @@ footer  a{color: white;}
     .s1{visibility:hidden;}
     .c2{
         display: grid;
-        gap: 5px;
+        gap: 20px;
         grid-template-areas: 
         "s2 s3"
         "s4 s5"
         ; 
-        width: 90%;
+        width: 346px;
         margin: 0 auto;
 
     }
