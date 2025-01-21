@@ -218,7 +218,7 @@ footer  a{color: white;}
     padding: 8.5px 0px;
 }
 
-@media screen and (max-width:576px) { 
+@media screen and (max-width:620px) { 
     footer{
         display: flex;
         flex-direction: column;
@@ -316,6 +316,6 @@ footer  a{color: white;}
         margin: 0px 0px 50px 0px;
 
 }
-.s1, .s2, .s3, .s4, .s5{background-color: white;border-radius: 16px;height:250px;width: 170px;}
+.s1, .s2, .s3, .s4, .s5{background-color: white;border-radius: 16px;height:250px;width: 150px;}
 }
     
