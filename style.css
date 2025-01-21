@@ -262,7 +262,7 @@ footer  a{color: #A3E1FF;}
     padding: 8.5px 0px;
 }
 
-@media screen and (max-width:570px) { 
+@media screen and (max-width:576px) { 
     footer{
         display: flex;
         flex-direction: column;
@@ -381,9 +381,9 @@ footer  a{color: #A3E1FF;}
 .c2 button{
     position: absolute;
     height: 35px;
-    justify-content: right;
-    padding: 0px 18px;
-    margin:-26px -80px;
+    justify-content: left;
+    padding: 0px 10px;
+    margin:-26px -75px;
     border-radius: 16px;
     border: 1px solid rgba(14, 14, 14, 0.15);
     
