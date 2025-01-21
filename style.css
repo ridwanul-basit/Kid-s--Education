@@ -1,4 +1,7 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Handlee&family=Quicksand:wght@300..700&display=swap');
+body{
+    font-family: "Fira Sans", serif;
+}
 .nav-menu{
     display: flex;
     flex-direction: row;
@@ -50,16 +53,21 @@ p{
 main{  
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
+    gap: 50px;
     background: rgb(247, 247, 247);
 }
-.main-1{
-    text-align: justify;
+.sp-1{
+    color:rgb(254, 163, 1); ;
 }
-main p {
-   justify-content: center;
-   text-align: justify;
+.sp-2{color: #01ACFD;}
+.main-1{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap:20px;
+
 }
 main img{
     width: 100%;
@@ -72,6 +80,7 @@ main button{
     padding: 9px 30px;
     border-radius: 12px;
     border: 1px solid rgba(14, 14, 14, 0.15);
+    margin-top: 15px;
 }
 section{
     margin-top: -20px;
@@ -159,28 +168,61 @@ section button{
     align-items: center;
 
 }
+.s02 h4{
+    width: 90%;
+    margin: 0 auto;
+    text-align: justify;
+    padding-top: 45px;
+}
+.s02 p{
+    width: 90%;
+    margin: 0 auto;
+    text-align: justify;
+    padding-top: 45px;
+}
+
 .h11{
    padding: 80px 0px;
 }
 .c2 img{
     width: 100%;
-    height: 50%;
+    height: auto;
     border-top-left-radius: 16px;
     border-top-right-radius: 16px;
 }
+.c2 button{
+    position: absolute;
+    height: 35px;
+    justify-content: right;
+    padding: 0px 30px;
+    margin:-26px -115px;
+    border-radius: 16px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    
+}
+.s02 .s1 button{margin:-26px -208px;color: white;background-color: #3CD8E8; }
+.s02 .s5 button{background-color: #95B226;color: white;}
+.s02 .s4 button{background-color: #95B226;color: white;}
+.s02 .s2 button{background-color: #95B226;color: white;}
+.s02 .s3 button{background-color: #5D58F0;color: white;}
+
+
 .s1{grid-area: s1;} .s2{grid-area: s2;} .s3{grid-area: s3;} .s4{grid-area: s4;} .s5{grid-area: s5;}
 .s1, .s2, .s3, .s4, .s5{background-color: white;border-radius: 16px;}
 .c2{
 
     display: grid;
-    margin: 20px 200px 40px 200px;
+    margin: 20px 200px 50px 200px;
     justify-content: space-around;
     gap: 20px;
     grid-template-areas: 
     "s1 s1 s2 s3"
     "s1 s1 s4 s5"
     ;
+    height: 600px;
+    
 }
+.menu-3 i{display: none;}
 .btn .button{
     padding: 10px 50px;
     color: aliceblue;
@@ -194,19 +236,20 @@ footer{
     background-color: rgb(1, 172, 253);
     display: flex;
     flex-direction: row;
-    gap: 250px;
+    gap: 200px;
     justify-content: center;
     color: white;
     padding: 80px 70px;
 
 }
-footer p{color: white;}
-footer  a{color: white;}
+footer .l1 p{color: #A3E1FF;}
+footer  a{color: #A3E1FF;}
 .img1{height:100px;width:100px;}
 .l10{display: flex;flex-direction: row;}
 .l1{
     display: flex;
     flex-direction: column;
+    width: 35%;
 }
 .l2{
     display: flex;
@@ -239,6 +282,12 @@ footer  a{color: white;}
         height:500px;
         justify-content: center;
     }
+    .main-1 p {
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        margin: 0 auto;
+    }
     main button{
         background-color: rgb(17, 17, 17);
         color: aliceblue;
@@ -246,6 +295,7 @@ footer  a{color: white;}
         padding: 9px 20px;
         border-radius: 12px;
         border: 1px solid rgba(14, 14, 14, 0.15);
+        margin-top: 30px;
     }
     .main-1{
         text-align: center;
@@ -258,8 +308,8 @@ footer  a{color: white;}
     .nav-menu{
         width: 100%;
         display: flex;
-        flex-direction: column;
-        justify-content: start;
+        flex-direction: row;
+        justify-content: space-between;
         height: 100px;
         border-bottom: 1px solid rgb(240, 170, 0) ;
 
@@ -271,8 +321,17 @@ footer  a{color: white;}
         margin-top: 20px;
         padding-left: 20px;
     }
-    .menu-2, .menu-3, .school{display: none;}
+    .menu-2, .school{display: none;}
+    .menu-3 button{display: none;}
     section button{display: none;}
+    .menu-3 i{
+        display: initial;
+        justify-content: right;
+        align-items: center;
+        padding: 10px 30px;
+        color: #696969;
+
+    }
     
     .card{
         margin: 0px 0px;
@@ -305,6 +364,7 @@ footer  a{color: white;}
         ; 
         width: 90%;
         margin: 0 auto;
+        height: 600px;
 
     }
     .btn .button{
@@ -315,6 +375,19 @@ footer  a{color: white;}
         border: 1px solid rgba(14, 14, 14, 0.15);
         margin: 50px 0px 50px 0px;
 
+}
+.c2 button{
+    position: absolute;
+    height: 35px;
+    justify-content: right;
+    padding: 0px 18px;
+    margin:-26px -80px;
+    border-radius: 16px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    
+}
+footer .l1{
+    width: 100%;
 }
 
 }
