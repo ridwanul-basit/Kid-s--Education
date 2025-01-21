@@ -269,10 +269,10 @@ footer  a{color: white;}
         gap: 10px;
         justify-content:left;
         margin-top: 20px;
-        padding-left: 80px;
+        padding-left: 20px;
     }
-    .menu-2, .menu-3, .school{visibility: hidden;}
-    section button{visibility: collapse;}
+    .menu-2, .menu-3, .school{display: none;}
+    section button{display: none;}
     
     .card{
         margin: 0px 0px;
@@ -295,7 +295,7 @@ footer  a{color: white;}
 
     }
     .s02{width: 100%;}
-    .s1{visibility:hidden;}
+    .s1{display: none;}
     .c2{
         display: grid;
         gap: 20px;
@@ -303,7 +303,7 @@ footer  a{color: white;}
         "s2 s3"
         "s4 s5"
         ; 
-        width: 346px;
+        width: 90%;
         margin: 0 auto;
 
     }
@@ -313,9 +313,9 @@ footer  a{color: white;}
         background-color: rgb(17, 17, 17);
         border-radius: 8px;
         border: 1px solid rgba(14, 14, 14, 0.15);
-        margin: 0px 0px 50px 0px;
+        margin: 50px 0px 50px 0px;
 
 }
-.s1, .s2, .s3, .s4, .s5{background-color: white;border-radius: 16px;height:250px;width: 150px;}
+
 }
     
